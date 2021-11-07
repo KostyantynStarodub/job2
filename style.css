@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.conteiner{
+    width: 100%;
+    max-width: 1200px;
+}
+.header_inner{
+    width: 100%;
+    -webkit-box-shadow: 9px 1px 36px 12px rgba(0,0,0,0.41); 
+    box-shadow: 9px 1px 36px 12px rgba(0,0,0,0.41);
+}
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;
+}
+.logo_top a{
+    text-decoration: none;
+    font-size: 40px;
+    color: brown;
+    font-family: 'Shadows Into Light', cursive;
+}
+.menu_top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+    transition: all .2s;
+}
+.menu_top a:hover{
+    color: cadetblue;
+    border-bottom: 2px solid cadetblue;
+    font-size: 35px;
+}
+.text_header{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding: 100px 0;
+}
+.text_header h1{
+    color: black;
+    font-size: 55px;
+    font-family: 'Shadows Into Light', cursive;
+}
+span{
+    color: brown;
+}
+.text_header p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.header_knopka{
+    width: 100%;
+    height: 30%;
+    margin-top: 70px;
+}
+.knopka{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px 60px;
+    background-color: cadetblue;
+    border-radius: 15px;
+}
+.knopka:hover{
+    background-color: darkcyan;
+    color: white;
+    -webkit-box-shadow: 9px 1px 36px 12px rgba(0,0,0,0.41); 
+    box-shadow: 9px 1px 36px 12px rgba(0,0,0,0.41);
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main_inner{
+    width: 100%;
+    display: flex;
+    -webkit-box-shadow: 9px 1px 36px 12px rgba(0,0,0,0.41); 
+    box-shadow: 9px 1px 36px 12px rgba(0,0,0,0.41);
+}
+.sidebar{
+    width: 250px;
+    height: 630px;
+    background-color: cadetblue;
+    border-radius: 0 25px 25px 0;
+}
+.sidebar div{
+    width: 120px;
+    border-bottom: 2px solid black;
+    text-align: end;
+    margin-top: 30px;
+}
+.content{
+    width: 950px;
+    height: 630px;
+    display: flex;
+    align-items: center;
+}
+.info{
+    width: 600px;
+    height: 300px;
+    background: url(./img/840303-background-space-1920x1080-for-pc.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    padding: 140px 240px;
+}
+.knopka_2{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: rgba(200, 232, 233, 0.623);
+}
+.knopka_2:hover{
+    background-color: rgba(0, 139, 139, 0.596);
+    color: white;
+    -webkit-box-shadow: 11px -7px 14px 1px rgba(0,0,0,0.83); 
+    box-shadow: 11px -7px 14px 1px rgba(0,0,0,0.83);
+}
+.a_box a{
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+.a_box a:hover{
+    font-size: 30px;
+}
